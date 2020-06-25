@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -103,16 +105,18 @@ font-style: oblique;}
 <h2 > Control Panel</h2>
   <div class="center">
   
+  <form action="control-panel.php" method="post">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<button class="button button1" >FORWORD</button> <br> <!-- forword button -->
-    <button class="button button1 " >LEFT</button> <!-- left button -->
-	<button class="stopb" >STOP</button> <!-- stop button -->
-	<button class="button button1" >RIGHT</button> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="submit" class="button button1" name="forword" value="FORWORD"><br> <!-- forword button -->
+    <input type="submit" class="button button1 "name="left" value="LEFT" ><!-- left button -->
+	<input type ="submit" class="stopb" name="stop" value="STOP"> <!-- stop button -->
+	<input type="submit" class="button button1" name="right" value="RIGHT"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;<!-- right button -->
-	<button class="button button1" >BACKWORD</button> <br> <!-- backword button -->
+	<input type="submit" class="button button1" name="backword" value="BACKWORD"> <br> <!-- backword button -->
+	</form>
   </div>
 </div>
 
